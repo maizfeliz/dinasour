@@ -9,6 +9,12 @@ npm i
 npm run dev
 ```
 
+## 🧪 How to test
+
+```bash
+npm run test
+```
+
 ## 🧰 Tech stack
 
 - Vite + React + TypeScript
@@ -29,6 +35,7 @@ npm run dev
 - **Better accessibility** (e.g. close menus with **Esc**, improve focus states)
 - **Loading state** (skeleton for initial load and after actions)
 - **Multi-tab sync** with BroadcastChannel 😔
+- **Local-first sync** (add a `syncAll()` to push IndexedDB changes to the server and pull updates back when online)
 
 ---
 
